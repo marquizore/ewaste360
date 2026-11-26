@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "hosting_public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "ewaste360",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
